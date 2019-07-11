@@ -1,4 +1,6 @@
-public class P5 {
+package one;
+
+public class ReplaceBlanks_2 {
     // ' '-->%20
     private String replaceSpace(StringBuffer str) {
         if (str == null){
@@ -27,6 +29,6 @@ public class P5 {
         return str.toString();
     }
     public static void main(String[] args) {
-        System.out.println(new P5().replaceSpace(new StringBuffer("momf jaonf sadjio ")));
+        System.out.println(new ReplaceBlanks_2().replaceSpace(new StringBuffer("momf jaonf sadjio ")));
     }
 }
